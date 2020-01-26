@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+body{
+  background-color: #F2F2F2;
+}
+.navbar{
+  border-bottom: 1px solid black;
+  padding: 15px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  letter-spacing: 2px;
+  outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.post-element{
+  border: 1px solid transparent;
+  background-color: #fff;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 3px;
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.post-element:hover{
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.post-title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 3px;
 }
-
-.App-link {
-  color: #61dafb;
+.post-body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #666666;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link-home{
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link-post{
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link-post:hover{
+  color: #666666;
 }

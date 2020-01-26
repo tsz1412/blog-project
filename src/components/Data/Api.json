@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "title": "JavaScript Design Patterns - Command Pattern",
+        "body": "The command pattern is probably my favorite design pattern, because of all the fun things you can do with it. The idea of the command pattern is to create an abstraction between the operations an object can do, its commands, and the actual commands themselves. This makes it really easy to combine together or chain different commands without having to change the code. The program can dynamically chain and combine these actions. The best part is since each command is its own object you can easily implement and undo function for each command and make a set of undo-able actions."
+    },
+    {
+        "id": 1,
+        "title": "6 Coding Mistakes that many developers make",
+        "body": "According to the single responsibility pattern, a function should only be responsible for doing one thing. And one thing only. I’ve seen way too many functions that fetch, process, and present data all in one function. It’s considered better programming to split this up. One function that fetches the data, one that processes it, and another one that presents the data."
+    },
+    {
+        "id": 2,
+        "title": "Advanced CLI: Advanced commands You Should Know as a Developer",
+        "body": "This post is for those of you who have some experience with the command line and got a taste of the basic commands. For those who feel like it’s time to dive deeper into the possibilities of working with the command line. I’ve listed six commands for you in this article and included some tips at the bottom as well."
+    },
+    {
+        "id": 3,
+        "title": "Build a Step Progress Bar with HTML, CSS, and JavaScript",
+        "body": "Learn how to build a Step Progress Bar with HTML, CSS, and JavaScriptForms can be one of the trickiest components to build. When they get more complicated, it can be useful to break them up into several different chunks. A great way to convey this to the user is to use a Step Progress Bar.A Step Progress Bar will communicate to the user what step (chunk of the form) they are working on, and how much they have left to do. In this article, we are going to build a Step Progress Bar from scratch using Vanilla HTML, CSS, and JavaScript."
+    },
+    {
+        "id": 4,
+        "title": "Top 7 Programming Habits Make You a Better Programmer",
+        "body": "Programming habits, we all have them. Both good and bad. But when you start adopting the right programming habits you can seriously boost your efficiency. Not only will these good habits impact you, but most likely they will also impact the people around you.Like Denis Waitley said: “The truth is, you don’t break a bad habit; you replace it with a good one”. So that’s exactly why we’ll go over this list of seven programming habits that I think will make you a better programmer."
+    },
+    {
+        "id": 5,
+        "title": "Learn and Understand JavaScript’s Reduce Function with Examples",
+        "body": "As the year begins, I have decided to make a series of articles that explain the various APIs (Application Programming Interfaces) in the Javascript language, wherein each article we breakdown a commonly used function in Javascript and try to go through its various applications.The first function we will be going through is the 'Reduce' higher-order function, mainly because out of all the JS array methods, it took me a bit of time to understand how the Reduce function works."
+    },
+    {
+        "id": 6,
+        "title": "How to Build and Publish Web Components with Vue CLI 3",
+        "body": "Are web components the future for the web platform? There are many opinions both for and against. What is a fact, though, is that browser support is emerging for web components and there are a growing number of tools and resources for authors interested in creating and publishing web components of their own."
+    }
+]
